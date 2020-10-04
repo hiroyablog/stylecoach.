@@ -1,0 +1,831 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(4, 30, 66);
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+body {
+    font-family: "YuGothic","Cera Pro",sans-serif!important;
+    background-color: rgb(250, 250, 250)!important;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*　ヘッダー */
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top:0 ;
+    z-index: 10;
+}
+
+header > .container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    max-width: none;
+    padding: 0 30px;
+}
+
+/*　ロゴ */
+
+.left-logo {
+    display: block;
+}
+
+.logo {
+    height: 60px;
+    vertical-align: bottom;
+}
+
+
+
+/* ヘッダーナビ */
+
+.header-right {
+    margin: 0 0 0 auto;
+}
+
+.list-menu a{
+    color: rgb(4, 30, 66);
+}
+  
+.list-menu > li{
+    padding: 0 15px;
+    font-weight: bold;
+}
+  
+.list-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 980px;
+    margin:0 -15px;
+}
+  
+/* main-wrapper */
+.main-wrapper {
+    background: rgb(#ffffff) no-repeat bottom center;
+    background-size: cover;
+    margin: 120px 0;
+}
+
+.main-wrapper > .container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-wrapper .ttl {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* メインメッセージ */
+.main-message > .container {
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    margin: 0 auto 100px auto ;
+    padding: 88px 40px;
+}
+
+.list-message {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list-message p {
+    font-size: 14px;
+    line-height: 36px;
+    margin: auto 0px;
+}
+
+.main-message h5 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+}
+
+.head-home h5 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px!important;
+}
+
+.body-home h5 {
+    text-align: center;
+    margin: 60px 0 20px 0;
+    font-size: 22px;
+}
+
+.style-text-1 {
+    border-right: 1px solid rgb(242, 244, 246);
+    padding-right: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+
+.style-text-2 {
+    padding-left: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+/* エリアホーム */
+[class*="area-home"] {
+    padding: 100px 0;
+}
+
+
+/* head */
+.head-home {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.head-home .ttl {
+    padding: 0 0 12px;
+    position: relative;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0 0 50px 0;
+}
+
+/* サービス */
+
+.list-service li {
+    margin-bottom: 50px;
+}
+
+.fa-check {
+    float: left;
+    font-size: 20px;
+    margin: 7px 10px 0 0;
+}
+
+.list-service h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list-service p {
+    font-size: 18px;
+}
+
+/* Our 3 values */
+
+.list-values {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.list-values > li {
+    width: 33.3333%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-values img {
+    width: 70px;
+    height: 70px;
+    margin: 0 0 40px;
+}
+
+.list-values h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list-values p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/*　料金　*/
+.list-cost {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.area-home-cost > .container {
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    margin: 0 auto 100px auto ;
+    padding: 88px 40px;
+}
+
+
+.list-cost > li {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-cost h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.list-cost p {
+    font-size: 20px;
+}
+
+.pay {
+    text-align: center;
+}
+
+.pay span {
+    border-bottom: 3px solid tomato;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.membership {
+    border-right: 1px solid rgb(242, 244, 246);
+    padding-right: 16px;
+}
+
+.payment {
+    padding-left: 16px;
+    
+}
+.attention {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/* 入会までの流れ */
+.area-home-step > .container {
+    margin: 0 auto 100px auto ;
+}
+
+.list-flow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    
+}
+
+.number {
+    margin-right: 14px;
+}
+
+.flow-icon {
+    width: 25%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flow-icon h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* コンタクト　*/
+
+.area-home-contact {
+    margin: 50px 0;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.contacts > li {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+[class*="btn-ico"] {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 30px 30px 30px 110px;
+    background-color: #ffffff;
+    color: rgb(4, 30, 66);
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    position: relative;
+}
+
+[class*="btn-ico"]::before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    margin: 0 0 40px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    
+}
+
+.contacts h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+[class*="btn-ico"][class*="mail"]::before {
+    background-image: url(img/透明mail.png);
+}
+
+[class*="btn-ico"][class*="line"]::before {
+    background-image: url(img/LINE_APP.png);
+}
+
+/*　フッター　*/
+
+footer > .container {
+    max-width: none;
+    padding: 0 60px;
+}
+
+
+footer {
+    background-color: rgb(4, 30, 66);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+footer a {
+    color: #ffffff!important;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 33%;
+    height: 22vh;
+    margin-top: 150px;
+    padding-left: 0px;
+    list-style: none;
+    letter-spacing: 0.145em;
+    text-align: left;
+}
+
+.list-footer-left li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    height: 50%;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 33%;
+}
+
+.footer-logo img {
+    width: 40%;
+    height: auto;
+    margin-top: 10%;
+    object-fit: cover;
+
+}
+
+.list-footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 33%;
+    height: 22vh;
+    margin-top: 150px;
+    padding-left: 0px;
+    list-style: none;
+    letter-spacing: 0.145em;
+    text-align: right;
+}
+
+.list-footer-right li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    height: 25%;
+}
+
+/*　ストーリー　*/
+.area-home-story {
+    background-color: rgb(250, 250, 250);
+}
+
+.area-home-story > .container {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: none;
+}
+
+.story-wrapper {
+    top: 20%;
+    left: 10vw;
+    position: absolute;
+    text-align: left;
+}
+
+.our-story {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+}
+
+.sub-story {
+    margin-bottom: 50px;
+    padding: 0px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+}
+
+.story-p {
+    padding: 0px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+    margin: auto 0px;
+}
+
+/*　メリット　*/
+.area-home-merit > .container {
+    margin: 0 auto 100px auto ;
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    margin: 0 auto 100px auto ;
+    padding: 88px 40px;
+}
+
+.list-merit {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    
+}
+
+.number {
+    margin-right: 14px;
+}
+
+.merit-icon {
+    width: 25%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.merit-icon h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*　プライバシーポリシー　*/
+.privasy {
+    width: 86vw;
+    margin-left: auto;
+    padding-top: 160px;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.privacy-policy {
+    text-align: center;
+    margin-bottom: 64px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.08em;
+    color: rgb(4, 30, 66);
+    margin-bottom: 50px;
+}
+
+.privacy-p {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.privacy-h2 {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    letter-spacing: 0.08em;
+    color: rgb(4, 30, 66);
+    margin: 0px;
+}
+
+/*　LINEQR */
+.area-home-line {
+    margin: 80px auto;
+}
+
+.list-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.add {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.line-qr {
+    width: 40%;
+    margin: 30px auto 50px;
+}
+
+.line-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Q&A */
+.area-home-question {
+    margin: 50px 0;
+}
+
+/*　プロフィール　*/
+.area-home-profile {
+    background-color: rgb(250, 250, 250);
+    padding-top: 200px;
+}
+
+.area-home-profile > .container {
+    width: 100%;
+    
+    
+    display: flex;
+}
+
+.profile-wrapper {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.instagram {
+    width: 50%;
+    padding-left: 10px;
+    margin: auto 0;
+}
+
+.profile-name {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+}
+
+.profile-sub {
+    margin-bottom: 50px;
+    padding: 0px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+}
+
+.profile-p {
+    padding: 0px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+    margin: auto 0px;
+}
+
+/*Q＆A*/
+.qa-list dl {
+    position: relative;
+    margin: 0;
+    padding: 28px 80px 28px 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+.qa-list dl:first-child {
+    border-top: 1px solid #000;
+}
+.qa-list dl::before {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin: auto;
+    content: '';
+    transform: rotate(135deg);
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.qa-list .open::before {
+    transform: rotate(-45deg);
+}
+.qa-list dl dt {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.qa-list dl dt::before {
+    font-size: 22px;
+    line-height: 1;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    content: 'Q.';
+    color: #3285bf;
+}
+.qa-list dl dd::before {
+    font-size: 22px;
+    line-height: 1;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    display: block;
+    content: 'A.';
+    font-weight: bold;
+    color: #3285bf;
+}
+.qa-list dl dd {
+    position: relative;
+    display: none;
+    height: auto;
+    margin: 20px 0 0;
+    padding: 0 0 0 50px;
+}
+.qa-list dl dd p {
+    margin: 30px 0 0;
+}
+.qa-list dl dd p:first-child{
+    margin-top: 0;
+}
+
+/* 利用規約 */
+.term {
+    width: 86vw;
+    margin-left: auto;
+    padding-top: 160px;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.terms-of-service {
+    text-align: center;
+    margin-bottom: 64px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.08em;
+    color: rgb(4, 30, 66);
+    margin-bottom: 50px;
+}
+
+.terms-p {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: rgb(4, 30, 66);
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.terms-h2 {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    letter-spacing: 0.08em;
+    color: rgb(4, 30, 66);
+    margin: 0px;
+}
+
+/*　スクロール　*/
+
+/*アニメーション要素のスタイル*/
+.box {
+	opacity : 0;
+	visibility: hidden;
+	transition: 3s;
+	transform: translateY(30px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
