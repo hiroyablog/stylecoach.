@@ -824,4 +824,9 @@ footer a {
 	transform: translateY(30px);
 }
 
-
+/*アニメーション要素までスクロールした時のスタイル*/
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
