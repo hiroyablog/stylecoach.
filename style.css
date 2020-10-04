@@ -820,7 +820,7 @@ footer a {
 .box {
 	opacity : 0;
 	visibility: hidden;
-	transition: 3s;
+	transition: all 3s;
 	transform: translateY(30px);
 }
 /*アニメーション要素までスクロールした時のスタイル*/
