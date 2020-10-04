@@ -395,6 +395,7 @@ footer > .container {
 
 footer {
     background-color: rgb(4, 30, 66);
+    backgrand-size: cover;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
