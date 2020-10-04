@@ -1,0 +1,805 @@
+@media all and (max-width:992px) {
+      
+    /* main-wrapper */
+    .main-wrapper .ttl {
+        font-size: 48px;
+    }
+    
+    /* メインメッセージ */
+    .main-message {
+        padding: 0 10px;
+    }
+    .main-message > .container {
+        max-width: none;
+    }
+
+    .list-message {
+        display: block;
+        padding: none;
+    }
+    
+    .list-message p {
+        font-size: 14px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        margin: auto 0px;
+    }
+    
+    .main-message h5 {
+        line-height: 40px;
+    }
+    
+    .head-home h5 {
+        margin-bottom: 5px;
+        font-size: 22px!important;
+    }
+    
+    .body-home h5 {
+        font-size: 18px;
+    }
+    
+    .style-text-1 {
+        border-bottom: 1px solid rgb(242, 244, 246);
+        border-right: none;
+        padding-right: 0;
+        padding-bottom: 16px;
+        width: 100%;
+    }
+    
+    
+    .style-text-2 {
+        padding-top: 16px;
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    /* エリアホーム */
+    [class*="area-home"] {
+        padding: 70px 0;
+    }
+    
+    
+    /* head */
+    
+    .head-home .ttl {
+        font-size: 32px;
+    }
+    
+    /* サービス */
+    .fa-check {
+        font-size: 18px;
+    }
+    
+    .list-service h4 {
+        font-size: 26px;
+    }
+    
+    .list-service p {
+        font-size: 14px;
+    }
+    
+    /* Our 3 values */
+    
+    .list-values {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .list-values > li {
+        width: 100%;
+        margin-bottom: 80px;
+        justify-content: center;
+
+    }
+    
+    .list-values img {
+        height: 70px;
+        margin-bottom: 30px;
+    }
+    
+    .list-values h4 {
+        font-size: 20px;
+    }
+
+    /*　料金　*/
+    .area-home-cost {
+        padding: 0 10px;
+    }
+
+    .area-home-cost > .container {
+        max-width: none;
+    }
+
+    .list-cost {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .list-cost p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .list-cost > li {
+        width: 100%;
+        padding: 20px 0!important;
+    }
+    
+    .list-cost h4 {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    
+    .membership {
+        border-bottom: 1px solid rgb(242, 244, 246);
+        border-right: none;
+    }
+    
+    .attention {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    /* 入会までの流れ */
+    .area-home-step > .container {
+        margin: 0 auto 100px auto ;
+    }
+    
+    .list-flow {
+        display: block;
+        text-align: center;
+    }
+    
+    .number {
+        margin-right: 14px;
+    }
+    
+    .flow-icon {
+        width: 300px;
+        margin: 0 auto 30px auto;
+    }
+    
+    .flow-icon h4 {
+        font-size: 24px;
+    }
+    
+    /* コンタクト　*/
+    
+    [class*="btn-ico"] {
+        font-size: 16px;
+    }
+    
+    .contacts h4 {
+        font-size: 20px;
+    }
+    /*　フッター　*/
+    
+    
+    
+    /*　ストーリー　*/
+    
+    .story-wrapper {
+        padding-top: 30px;
+    }
+
+    .our-story {
+        line-height: 30px;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    
+    .sub-story {
+        margin-bottom: 40px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    
+    .story-p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    /*　メリット　*/
+
+    .area-home-merit {
+        padding: 0 10px;
+    }
+    .area-home-merit > .container {
+        max-width: none;
+
+    }
+    
+    .list-merit {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .merit-icon {
+        width: 100%;
+        padding: 30px 0;
+    }
+    
+    .merit-icon h4 {
+        font-size: 18px;
+        
+    }
+
+    
+    
+    /*　プライバシーポリシー　*/
+    
+    /*　LINEQR */
+    
+    .add {
+        font-size: 30px;
+    }
+    
+    .line-text {
+        font-size: 14px;
+    }
+    
+    /* Q&A */
+    .area-home-question {
+        margin: 50px 0;
+    }
+    
+    /*　プロフィール　*/
+
+    .area-home-profile {
+        padding-top: 200px;
+    }
+    
+    .area-home-profile > .container {
+        width: 100%;
+        display: block;
+    }
+    
+    .profile-wrapper {
+        width: 100%;
+        padding-right: none;
+        padding-bottom: 30px;
+        border-bottom: 2px solid rgb(242, 244, 246);
+    }
+    
+    .instagram {
+        width: 100%;
+        padding-left: none;
+        padding-top: 30px;
+    }
+    
+    
+    .profile-sub {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+    .profile-p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    /*Q＆A*/
+    
+    /* 利用規約 */
+    
+}
+
+
+@media all and (max-width:767px) {
+    
+    .menu{
+        display: block;
+    }
+      
+    header nav{
+        position: fixed;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        height: 100%;
+        background-color: rgb(4, 30, 66);
+        padding-top: 60px;
+    }
+      
+    header nav ul li{
+        width: 100%;
+    }
+      
+    header nav ul li a{
+        color: #ffffff;
+        padding-left: 20px;
+    }
+      
+    header .btn-gnavi{
+        position: fixed;
+        top: 35px;
+        right: 45px;
+        width: 30px;
+        height: 24px;
+        z-index: 3;
+        cursor: pointer;
+        transition: all 400ms;
+        -webkit-transition:all 400ms;
+    }
+      
+    header .btn-gnavi span {
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background: #666;
+        border-radius: 10px;
+        -webkit-transition: all 400ms;
+        transition: all 400ms
+    }
+      
+    header .btn-gnavi span:nth-child(1){
+        top: 0;
+    }
+      
+    header .btn-gnavi span:nth-child(2){
+        top: 10px;
+    }
+      
+    header .btn-gnavi span:nth-child(3){
+        top: 20px;
+    }
+      
+    header .btn-gnavi.hb-open{
+        transform: rotate(180deg);
+        -webkit-transform:rotate(180deg);
+    }
+      
+    header .btn-gnavi.hb-open span{
+        background: #fff;
+    }
+      
+    header .btn-gnavi.hb-open span:nth-child(1){
+        width: 24px;
+        transform: translate(-7px,17px) rotate(45deg);
+        -webkit-transform: translate(-7px,17px) rotate(45deg);
+    }
+      
+    header .btn-gnavi.hb-open span:nth-child(3){
+        width: 24px;
+        transform: translate(-7px,-17px) rotate(-45deg);
+        -webkit-transform: translate(-7px,-17px) rotate(-45deg);
+    }
+
+    .list-menu {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 980px;
+        margin: 0 -15px;
+        
+    }
+
+    .list-menu > li {
+        padding: 15px 30px;
+        letter-spacing: 0.1rem;
+    }
+
+    .list-menu a {
+        color: #ffffff;
+    }
+
+    .logo {
+        height: 50px;
+        vertical-align: bottom;
+    }
+
+    /*質問*/
+
+    .qa-list dl {
+        position: relative;
+        padding: 15px 40px 15px 10px;
+    }
+    .qa-list dl::before {
+        top: 20px;
+        right: 20px;
+        width: 7px;
+        height: 7px;
+    }
+    .qa-list dl dt {
+        padding: 0 0 0 30px;
+        font-size: 14px;
+    }
+    .qa-list dl dt::before {
+        font-size: 14px;
+        top: 3px;
+        left: 5px;
+        content: 'Q.';
+    }
+    .qa-list dl dd::before {
+        font-size: 14px;
+        top: 5px;
+        left: 5px;
+        content: 'A.';
+    }
+    .qa-list dl dd {
+        margin: 10px 0 0;
+        padding: 0 0 0 30px;
+        font-size: 14px;
+    }
+    .qa-list dl dd p {
+        margin: 30px 0 0;
+    }
+    .qa-list dl dd p:first-child{
+        margin-top: 0;
+    }
+    
+    /*　ヘッダー */
+    
+    /*　ロゴ */
+     
+    /* ヘッダーナビ */
+    
+    /* main-wrapper */
+    
+    .main-wrapper > .container {
+        height: 500px;
+    }
+    
+    .main-wrapper .ttl {
+        font-size: 30px;
+    }
+    
+    /* メインメッセージ */
+    .main-message > .container {
+        margin: 0 auto 100px auto ;
+        padding: 70px 25px;
+    }
+
+    .list-message p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    
+    .main-message h5 {
+        line-height: 40px;
+    }
+    
+    .head-home h5 {
+        margin-bottom: 10px;
+        font-size: 18px!important;
+    }
+    
+    .body-home h5 {
+        font-size: 14px;
+    }
+    
+    /* エリアホーム */
+
+    /* head */
+
+    /* エリアホーム */
+    
+    /* head */
+    
+    .head-home .ttl {
+        font-size: 26px;
+    }
+    
+    /* サービス */
+    .fa-check {
+        font-size: 20px;
+        margin-top: -1px;
+    }
+    
+    .list-service h4 {
+        font-size: 18px;
+    }
+    
+    .list-service p {
+        font-size: 12px;
+    }
+    
+    /* Our 3 values */
+    
+    .list-values {
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .list-values > li {
+        width: 100%;
+        margin-bottom: 80px;
+        justify-content: center;
+
+    }
+    
+    .list-values img {
+        width: 65px;
+        height: 65px;
+        margin-bottom: 30px;
+    }
+    
+    .list-values h4 {
+        font-size: 18px;
+    }
+
+    .list-values p {
+        font-size: 12px
+    };
+    /*　料金　*/
+
+    .list-cost p {
+        font-size: 14px!important;
+
+    }
+    .payment p,.membership p {
+        font-size: 14px;
+    }
+    .list-cost h4 {
+        font-size: 18px;   
+    }
+    
+    .attention {
+        font-size: 8px;
+        margin-top: 30px;
+    }
+    
+    /* 入会までの流れ */
+
+    .flow-icon h4 {
+        font-size: 20px;
+    }
+
+    .flow-icon p {
+        font-size: 12px;
+    }
+    
+    /* コンタクト　*/
+
+    .contacts {
+        display: block;
+        margin: 0 -20px;
+    }
+    
+    .contacts > li {
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    [class*="btn-ico"] {
+        font-size: 16px;
+        width: 80%;
+    }
+    
+    .contacts h4 {
+        font-size: 18px;
+    }
+
+    [class*="btn-ico"]::before {
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translateY(-50%);
+        
+    }
+
+    /*　フッター　*/
+    footer > .container {
+        padding: 0 20px;
+    }
+    
+    
+    footer {
+        height: 50vh;
+    }
+    
+    .list-footer-left {
+        width: 25%;
+        height: 22vh;
+    }
+    
+    .list-footer-left li {
+        font-size: 12px;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .footer-logo {
+        width: 50%;
+    }
+    
+    .footer-logo img {
+        width: 120px;
+    
+    }
+    
+    .list-footer-right {
+        width: 25%;
+        height: 22vh;
+        
+    }
+    
+    .list-footer-right li {
+        font-size: 12px;
+        height: none;
+        margin-bottom: 20px;
+    }
+    /*　ストーリー　*/
+
+    .story-wrapper {
+        top: 20%;
+        left: 0;
+        position: absolute;
+        padding: 30px 20px 50px 20px;
+    }
+
+
+    .our-story {
+        line-height: 30px;
+        font-size: 24px;
+    }
+    
+    .sub-story {
+        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    
+    .story-p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    /*　メリット　*/
+    .area-home-merit .ttl {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .area-home-merit {
+        padding: 0 10px;
+    }
+    .area-home-merit > .container {
+        max-width: none;
+
+    }
+    
+    .list-merit {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .merit-icon {
+        width: 100%;
+        padding: 30px 0;
+    }
+    
+    .merit-icon h4 {
+        font-size: 18px;
+        
+    }
+
+    .merit-icon p {
+        font-size: 12px;
+    }
+    
+    /*　プライバシーポリシー　*/
+    .privasy {
+        width: 86vw;
+        margin-left: auto;
+        padding-top: 160px;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    
+    .privacy-policy {
+        font-size: 24px;
+        
+    }
+    
+    .privacy-p {
+        font-size: 12px;
+        line-height: 20px;
+        
+    }
+    
+    .privacy-h2 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    /*　LINEQR */
+    
+    .add {
+        font-size: 24px;
+    }
+    
+    .line-text {
+        font-size: 12px;
+    }
+    
+    /* Q&A */
+    .area-home-question {
+        margin: 50px 0;
+    }
+
+    .qa-list dl dt {
+        font-size: 12px;
+    }
+    
+    .qa-list dl dd p {
+        font-size: 12px;
+    }
+    /*　プロフィール　*/
+
+    .area-home-profile {
+        padding-top: 150px;
+    }
+    
+    .area-home-profile > .container {
+        width: 100%;
+        display: block;
+    }
+    
+    .profile-wrapper {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 30px;
+        border-bottom: 2px solid rgb(242, 244, 246);
+    }
+    
+    .instagram {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    
+    .profile-name {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    
+    .profile-sub {
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    
+    .profile-p {
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: normal;
+    }
+    
+    
+    /* 利用規約 */
+    .term {
+        width: 86vw;
+        margin-left: auto;
+        padding-top: 160px;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    
+    .terms-of-service {
+        font-size: 24px;
+        
+    }
+    
+    .terms-p {
+        font-size: 12px;
+        line-height: 20px;
+        
+    }
+    
+    .terms-h2 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}
