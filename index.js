@@ -1,5 +1,5 @@
 /*　ハンバーガー */
-$(function(){
+ $(function(){
     $('.btn-gnavi').on('click',function(){
       var rightVal = 0;
       if($(this).hasClass('hb-open')){
