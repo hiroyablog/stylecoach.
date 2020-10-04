@@ -36,7 +36,7 @@ $(function(){
         //ウィンドウの高さを取得
         var height = $(window).height();
         //ターゲットまでスクロールするとフェードインする
-        if (scroll > target - height){
+        if (scroll > target - height + 200){
           //クラスを付与
           $(this).addClass('active');
         }
