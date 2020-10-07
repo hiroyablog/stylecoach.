@@ -119,7 +119,7 @@
     }
     
     .list-cost p {
-        font-size: 18px;
+        
         line-height: 36px;
     }
 
@@ -141,6 +141,7 @@
     .attention {
         font-size: 18px;
         margin-top: 30px;
+        
     }
     
     /* 入会までの流れ */
@@ -529,13 +530,10 @@
     };
     /*　料金　*/
 
-    .list-cost p {
-        font-size: 14px!important;
-
-    }
-    .payment p,.membership p {
+    .membership p {
         font-size: 14px;
     }
+
     .list-cost h4 {
         font-size: 18px;   
     }
@@ -543,6 +541,14 @@
     .attention {
         font-size: 8px;
         margin-top: 30px;
+    }
+
+    .attention p {
+        line-height: 24px;
+    }
+
+    .pay span {
+        font-size: 28px;
     }
     
     /* 入会までの流れ */
