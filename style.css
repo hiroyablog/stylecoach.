@@ -261,16 +261,14 @@ header > .container {
     
 }
 
-.list-cost p {
-    font-size: 20px;
-}
-
 .pay {
     text-align: center;
 }
 
 .pay span {
-    border-bottom: 3px solid tomato;
+    font-size: 36px;
+    color: red;
+    font-weight: bold;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
@@ -278,16 +276,20 @@ header > .container {
 .membership {
     border-right: 1px solid rgb(242, 244, 246);
     padding-right: 16px;
+   
 }
 
-.payment {
+.membership p {
+    font-size: 20px;
+}
+
+.attention {
     padding-left: 16px;
+    font-size: 12px;
+    line-height: 28px;
     
 }
-.attention {
-    font-size: 14px;
-    margin-top: 30px;
-}
+
 
 /* 入会までの流れ */
 .area-home-step > .container {
@@ -395,7 +397,6 @@ footer > .container {
 
 footer {
     background-color: rgb(4, 30, 66);
-    backgrand-size: cover;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
@@ -496,7 +497,7 @@ footer a {
 .our-story {
     margin: 0px;
     padding: 0px;
-    font-family: "Cera Pro";
+    
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -508,7 +509,7 @@ footer a {
 .sub-story {
     margin-bottom: 50px;
     padding: 0px;
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -519,7 +520,7 @@ footer a {
 
 .story-p {
     padding: 0px;
-    font-family: YuGothic;
+   
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -576,7 +577,7 @@ footer a {
 .privacy-policy {
     text-align: center;
     margin-bottom: 64px;
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -587,7 +588,7 @@ footer a {
 }
 
 .privacy-p {
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -599,7 +600,7 @@ footer a {
 }
 
 .privacy-h2 {
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -668,7 +669,7 @@ footer a {
 .profile-name {
     margin: 0px;
     padding: 0px;
-    font-family: "Cera Pro";
+
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -679,8 +680,7 @@ footer a {
 
 .profile-sub {
     margin-bottom: 50px;
-    padding: 0px;
-    font-family: YuGothic;
+    padding: 0;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -691,7 +691,6 @@ footer a {
 
 .profile-p {
     padding: 0px;
-    font-family: YuGothic;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -782,7 +781,7 @@ footer a {
 .terms-of-service {
     text-align: center;
     margin-bottom: 64px;
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -793,7 +792,7 @@ footer a {
 }
 
 .terms-p {
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -805,7 +804,7 @@ footer a {
 }
 
 .terms-h2 {
-    font-family: YuGothic;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -826,7 +825,7 @@ footer a {
 }
 
 /*アニメーション要素までスクロールした時のスタイル*/
-.active {
+.active{
 	opacity: 1;
 	visibility: visible;
 	transform: translateY(0);
