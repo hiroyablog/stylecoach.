@@ -663,6 +663,7 @@
     .area-home-merit .ttl {
         padding: 0 20px;
         text-align: center;
+        font-size: 18px;
     }
 
     .area-home-merit {
@@ -685,12 +686,12 @@
     }
     
     .merit-icon h4 {
-        font-size: 18px;
+        font-size: 16px;
         
     }
 
     .merit-icon p {
-        font-size: 12px;
+        font-size: 11px;
     }
     
     /*　プライバシーポリシー　*/
