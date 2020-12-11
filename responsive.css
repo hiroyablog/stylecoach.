@@ -104,46 +104,61 @@
     }
 
     /*　料金　*/
-    .area-home-cost {
-        padding: 0 10px;
-    }
-
-    .area-home-cost > .container {
-        max-width: none;
-    }
-
     .list-cost {
-        display: block;
-        margin: 0 auto;
-        justify-content: center;
-    }
-    
-    .list-cost p {
-        
-        line-height: 36px;
+        margin: -20px 0;
     }
 
     .list-cost > li {
         width: 100%;
-        padding: 20px 0!important;
+        padding: 20px 0;
     }
-    
+
+    .list-cost h3 {
+        font-size: 28px;
+    }
+
     .list-cost h4 {
-        font-size: 26px;
-        margin-bottom: 16px;
+        font-size: 22px;
     }
-    
-    .membership {
-        border-bottom: 1px solid rgb(242, 244, 246);
+
+    .pay {
+        font-size: 16px;
+    }
+
+
+    .standard {
         border-right: none;
+        border-bottom: 1px solid rgb(242, 244, 246);
+        padding-right: none;
+        padding-bottom: 16px;
     }
-    
+
+    .online {
+        padding-left: none;
+        padding-left: 16px;
+    }
+
+    .service-contents {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .service-pran {
+        font-size: 14px;
+    }
+
+    .attention h4{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
     .attention {
-        font-size: 18px;
-        margin-top: 30px;
-        
+        border-top: 1px solid rgb(242, 244, 246);
+        padding-top: 16px;
+        font-size: 10px;
+        line-height: 22px;
     }
-    
+
     /* 入会までの流れ */
     .area-home-step > .container {
         margin: 0 auto 100px auto ;
@@ -529,28 +544,44 @@
         font-size: 12px
     };
     /*　料金　*/
+    /*　料金　*/
+    .list-cost {
+        margin: -20px 0;
+    }
 
-    .membership p {
-        font-size: 14px;
+    .list-cost > li {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .list-cost h3 {
+        font-size: 24px;
     }
 
     .list-cost h4 {
-        font-size: 18px;   
+        font-size: 18px;    
     }
-    
-    .attention {
+
+    .pay {
+        font-size: 18px;
+    }
+
+    .service-contents {
         font-size: 8px;
-        margin-top: 30px;
     }
 
-    .attention p {
-        line-height: 24px;
+    .service-pran {
+        font-size: 12px;
     }
 
-    .pay span {
-        font-size: 28px;
+    .attention h4{
+        font-size: 18px;
     }
-    
+
+    .attention {
+        font-size: 10px;
+        line-height: 20px;
+    }
     /* 入会までの流れ */
 
     .flow-icon h4 {
