@@ -422,6 +422,11 @@ header > .container {
     position: relative;
 }
 
+[class*="btn-ico"]:hover {
+    background-color: lightskyblue;
+    box-shadow: none;
+}
+
 [class*="btn-ico"]::before {
     content: "";
     width: 70px;
