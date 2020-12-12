@@ -275,19 +275,19 @@ header > .container {
     font-weight: bold;
 }
 
-.two {
-    font-size: 18px;
-    font-weight: bold;
-}
-
 
 .standard {
-    border-right: 1px solid rgb(242, 244, 246);
+    border-right: 2px solid rgb(242, 244, 246);
     padding-right: 16px;
 }
 
 .online {
     padding-left: 16px;
+}
+
+.two {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .service-contents {
@@ -301,17 +301,29 @@ header > .container {
     margin-top: 20px;
 }
 
-.attention h4{
+.other > li {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    border-top: 2px solid rgb(242, 244, 246);
+    margin-top: 60px;
+    padding-top: 30px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.other h4{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-}
-
-.attention {
-    padding-top:30px;
-    font-size: 12px;
-    line-height: 24px;
-    
 }
 
 
