@@ -137,11 +137,11 @@
         padding-left: none;
         padding-left: 16px;
     }
-      
+
     .two {
         font-size: 16px;
     }
-
+    
     .service-contents {
         font-size: 10px;
         line-height: 18px;
@@ -150,18 +150,16 @@
     .service-pran {
         font-size: 14px;
     }
-
-    .attention h4{
-        font-size: 20px;
-        padding-top: 20px;
-    }
-
-    .attention {
-        border-top: 1px solid rgb(242, 244, 246);
-        padding-top: 16px;
+    
+    .other {
         font-size: 10px;
         line-height: 22px;
     }
+    
+    .other h4{
+        font-size: 20px;
+    }
+    
 
     /* 入会までの流れ */
     .area-home-step > .container {
@@ -567,9 +565,9 @@
     }
 
     .pay {
-        font-size: 18px;
+        font-size: 14px;
     }
-      
+
     .two {
         font-size: 14px;
     }
@@ -582,14 +580,26 @@
         font-size: 12px;
     }
 
-    .attention h4{
-        font-size: 18px;
+    .other > li {
+        width: 100%;
+        padding: 40px 0;
     }
-
-    .attention {
+    
+    .other {
+        margin: -20px 0;
         font-size: 10px;
         line-height: 20px;
     }
+    
+    .other h4{
+        font-size: 18px;
+    }
+
+    .time {
+        border-top: 2px solid rgb(242, 244, 246);
+    }
+    
+
     /* 入会までの流れ */
 
     .flow-icon h4 {
