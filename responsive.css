@@ -137,6 +137,10 @@
         padding-left: none;
         padding-left: 16px;
     }
+      
+    .two {
+        font-size: 16px;
+    }
 
     .service-contents {
         font-size: 10px;
@@ -564,6 +568,10 @@
 
     .pay {
         font-size: 18px;
+    }
+      
+    .two {
+        font-size: 14px;
     }
 
     .service-contents {
